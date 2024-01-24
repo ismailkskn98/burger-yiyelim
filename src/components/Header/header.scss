@@ -11,6 +11,7 @@ header {
           }
           &.active {
             color: $mainHover;
+            font-size: 17px;
             filter: drop-shadow(0 5px 5px rgb(39, 39, 39));
           }
         }

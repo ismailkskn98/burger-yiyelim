@@ -3,7 +3,8 @@ import { Suspense, lazy } from 'react';
 // Pages
 import Home from '../pages/Home';
 import About from '../pages/About';
-const Menu = lazy(() => import('../pages/Menu'));
+// const Menu = lazy(() => import('../pages/Menu'));
+import Menu from '../pages/Menu';
 import Contact from '../pages/Contact';
 const NotFound = lazy(() => import('../pages/NotFound'));
 // Components
@@ -15,14 +16,7 @@ function RouterContainer() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route
-          path="/menu"
-          element={
-            <Suspense fallback={<PageLoading pageName="Menu" />}>
-              <Menu />
-            </Suspense>
-          }
-        />
+        <Route path="/menu" element={<Menu />} />
         <Route path="/contact" element={<Contact />} />
         <Route
           path="*"

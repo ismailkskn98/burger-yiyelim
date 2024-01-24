@@ -5,7 +5,7 @@ function Home() {
   const navigate = useNavigate();
   return (
     <>
-      <section className="w-full relative">
+      <section id="home" className="w-full relative">
         <img className="w-full" src={BannerImage} alt="burger banner image" />
         <button onClick={() => navigate('/menu')} className="absolute bottom-20 left-28">
           SİPARİŞ VER
@@ -19,6 +19,7 @@ function Home() {
           </p>
         </div>
       </section>
+      {/* İçerik Gelecek */}
       <section className="w-full flex flex-col items-center my-3">
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Et corporis porro maiores commodi illo facere
