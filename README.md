@@ -1,8 +1,8 @@
-### React + Vite
+# React + Vite
 
 ## react - router - tailwindCss - sass - prop-types - react-icons
 
-# Belirtiğim araçları kullanarak basit bir "burger yiyelim" projesi (front end)
+### Belirtiğim araçları kullanarak basit bir "burger yiyelim" projesi (front end)
 
 npm i -D tailwindcss postcss autoprefixer sass
 
