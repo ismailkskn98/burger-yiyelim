@@ -1,0 +1,15 @@
+@import '../../assets/css/_variables';
+
+footer {
+  .buttons {
+    svg {
+      &:hover {
+        color: $mainHover;
+        transition: all 0.2s ease;
+      }
+    }
+  }
+  .copyright {
+    color: rgba(238, 238, 238, 0.85);
+  }
+}

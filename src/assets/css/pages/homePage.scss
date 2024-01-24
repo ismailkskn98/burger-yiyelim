@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Burned&display=swap');
+
+section {
+  img {
+    display: block;
+    filter: brightness(0.5) contrast(0.9);
+  }
+  button {
+    background-color: $main;
+    color: white;
+    border: 2px solid transparent;
+    padding: 0.7rem 2rem;
+    &:hover {
+      background-color: #e7171741;
+      border: 2px solid $main;
+    }
+  }
+  h1 {
+    font-family: 'Rubik Burned', system-ui;
+  }
+}

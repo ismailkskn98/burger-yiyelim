@@ -1,0 +1,20 @@
+@import '../../assets/css/_variables';
+
+header {
+  nav {
+    ul {
+      li {
+        a {
+          transition: all 0.2s ease;
+          &:hover {
+            color: $mainHover;
+          }
+          &.active {
+            color: $mainHover;
+            filter: drop-shadow(0 5px 5px rgb(39, 39, 39));
+          }
+        }
+      }
+    }
+  }
+}

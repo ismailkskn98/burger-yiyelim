@@ -1,0 +1,6 @@
+@import './variables', './pages/homePage.scss';
+
+header,
+footer {
+  background-color: $main;
+}
