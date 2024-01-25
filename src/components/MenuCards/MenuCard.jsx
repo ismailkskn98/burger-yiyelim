@@ -5,7 +5,7 @@ function MenuCard({ menuItem }) {
   // console.log(menuItem);
   return (
     <>
-      <div className="menu-card border rounded shadow-md px-3 pb-3 overflow-hidden w-full sm:w-auto transition-all hover:translate-x-3 hover:-translate-y-3 hover:shadow-xl">
+      <div className="menu-card flex flex-col items-center border rounded shadow-md px-3 pb-3 overflow-hidden w-full sm:w-auto transition-all hover:translate-x-3 hover:-translate-y-3 hover:shadow-xl">
         <img className="w-80 -mt-10" src={image} alt={name} />
         <div className="menu-text -mt-10">
           <h2 className="text-4xl font-bold text-center">{name}</h2>
