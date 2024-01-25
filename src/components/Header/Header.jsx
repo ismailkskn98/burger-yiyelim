@@ -1,6 +1,6 @@
 import './header.scss';
 import Navbar from './Navbar';
-import burgerLogo from '../../assets/images/burgerLogo.png';
+import burgerLogo from '../../assets/images/burgerlogo.png';
 
 function Header() {
   return (
