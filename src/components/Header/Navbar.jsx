@@ -14,7 +14,7 @@ function Navbar() {
         <ul className="flex justify-between items-center gap-8">
           {navItem.map((item, i) => (
             <li className="w-full" key={i}>
-              <NavLink className="block w-full  py-2 px-4 font-bold text-white tracking-wider" to={item.route}>
+              <NavLink className="block w-full  py-2 font-bold text-white tracking-wider" to={item.route}>
                 {item.page}
               </NavLink>
             </li>
